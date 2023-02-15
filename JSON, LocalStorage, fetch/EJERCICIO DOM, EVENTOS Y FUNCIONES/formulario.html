@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO DOM, EVENTOS Y FUNCIONES</title>
+    <script src="ejerciciodom.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>EJERCICIO DOM, EVENTOS Y FUNCIONES - CURSO JS</h1>
+    <!-- 
+    FORMULARIO CAMPOS: NOMBRE, APELLIDO Y EDAD
+    BOTÓN DE ENVIAR EL FORMULARIO; EVENTOS SUBMIT
+    MOSTRAR DATOS POR PANTALLA
+    VALIDACIÓN DE FORMULARIO
+-->
+    <div class="box">
+        <p>
+        <form action="" method="post" id="formulario" onsubmit="return false">
+            <label for="nombre">Nombre:</label> <br>
+            <input type="text" name="nombre" id="nombre"><br>
+
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" name="apellidos" id="apellidos"><br>
+
+            <label for="edad">Edad</label><br>
+            <input type="number" name="edad" id="edad"><br>
+
+            <input type="submit" value="Enviar" id="submit"><br>
+        </form>
+        </p>
+    </div>
+
+    <div class="box dashed">
+        
+    </div>
+</body>
+
+</html>
